@@ -1,0 +1,331 @@
+/********  utils  *******/
+
+:root {
+    --main-color:#f5ebe0;
+    --header-color:#e9ecef;
+    --card-color:#fefae0;
+}
+
+/****  fonts  ****/
+* {
+    font-family: 'Dosis',sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #000;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 1.9rem ;
+    color:black;
+    margin: 5px;
+}
+
+h3 {
+     margin: 0;
+    font-size: 1.25rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+
+/*******  components  ******/
+
+.hero-btn {
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+
+.nav-items a {
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.nav-items a:hover {
+    color:  #0077cc;;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+a:hover {
+    color:#0077cc;
+}
+
+
+.card-link {
+    color:#89c2d9;
+}
+
+.about-link {
+    color: #e9ecef;
+}
+
+.fa-phone,
+.fa-envelope {
+    padding-right: 5px;
+    color:#89c2d9;
+}
+
+input {
+    width: 150px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+/*******  body  *******/
+
+body {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/******  header  ********/
+
+.nav-header {
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+    position: relative;
+    opacity: 0.7;
+    box-shadow: 0px 12px 4px lightgray;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+
+.nav-items ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 40px;
+}
+
+
+/******  hero-section  *******/
+
+.hero-container {
+  position: relative;
+
+}
+
+.hero-img {
+    background-color: #e9ecef;
+}
+.hero-img {
+    width: 100%;
+    height: 500px;
+    object-fit:cover;
+    opacity: 0.9;
+}
+
+
+.hero-content {
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    position: absolute;
+    left: 514px;
+    bottom: 300px;
+}
+
+/********  Attractions-and-About *******/
+
+.Attraction-and-About {
+    display: flex;
+}
+
+.Attraction-and-About section {
+    padding: 20px;
+}
+
+.Attractions-container {
+    border-radius: 20px 20px 20px 20px;
+    width: 60%;
+    margin:40px ;
+    background-color: var(--main-color);
+}
+
+.Attraction-title {
+    display: flex;
+    justify-content: center;
+}
+
+.Attraction-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.Attraction-cards .card {
+    width: 45%;
+    border-radius: 15px;
+    background-color:var(--card-color) ;
+    box-shadow: 0px 13px 41px lightgray;
+}
+
+.Attraction-cards:hover {
+    
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-img {
+    border-radius: 15px 15px 0px 0px;
+    object-fit: cover;
+    height: 150px;
+    width: 100%;
+}
+
+/********  About  *********/
+
+.About-container {
+    background-color: var(--main-color);
+    margin: 40px 0px 0px 50px;
+    width: 80%;
+    border-radius: 20px;
+    height: 365px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .About-content {
+      width: 80%;
+  }
+  
+  .about-img {
+      border-radius: 20px;
+      width: 50%;
+      object-fit: cover;
+  }
+  
+
+/********  Accommodation  *******/
+
+.Accommodation-container {
+    background-color: var(--main-color);
+    padding: 20px;
+    width: 91%;
+    border-radius: 20px;
+    margin: 0px 50px 60px 50px;
+}
+
+.Accommodation-content {
+    display: flex;
+    justify-content: center;
+}
+
+.Accomm-cards {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Accomm-cards .card {
+    width: 31%;
+    border-radius: 15px;
+    background-color: var(--card-color);
+    box-shadow: 0px 13px 41px lightgray;
+}
+
+.card-content {
+    text-align: center;
+}
+
+.card-image {
+    border-radius: 15px 15px 0px 0px ;
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+
+/*******  review  *******/
+.Accommodation-and-review {
+    display: flex;
+}
+
+.reviews-container {
+    margin: 0px 0px 60px 50px;
+    padding: 20px;
+    background-color: var(--main-color);
+    width: 50%;
+    border-radius: 20px;
+}
+
+.reviews-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 91%;
+}
+
+.review-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.review-cards .card {
+  width: 30%;
+  background-color: var(--card-color);
+}
+
+/*******  footer-section  ********/
+
+.nav-footer {
+    padding: 40px;
+    background-color: #f8f9fa;
+    height: 150px;
+}
+
+.contact-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-items ul {
+    list-style: none;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
