@@ -93,6 +93,11 @@ a:hover {
     color:#89c2d9;
 }
 
+.fa-instagram {
+    font-size: 1.25rem;
+
+}
+
 input {
     width: 150px;
     border: 1px solid gray;
@@ -250,7 +255,6 @@ body {
     width: 90%;
     border-radius: 20px;
     margin: 100px 50px 60px 50px;
-    height: 350px;
 }
 
 .Accommodation-content {
@@ -267,7 +271,9 @@ body {
 }
 
 .Accomm-cards .card {
-    width: 31%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
     border-radius: 15px;
     background-color: var(--card-color);
     box-shadow: 0px 13px 41px lightgray;
@@ -359,5 +365,23 @@ body {
     .hero-container {
         display: flex;
         flex-direction: column;
+        
     }
+
+    .hero-content {
+        position: absolute;
+        left: 32px;
+    }
+
+    .Attraction-and-About {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviews-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .r
 }
