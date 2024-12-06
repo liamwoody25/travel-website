@@ -252,7 +252,6 @@ body {
 .Accommodation-container {
     background-color: var(--main-color);
     padding: 20px;
-    width: 90%;
     border-radius: 20px;
     margin: 100px 50px 60px 50px;
 }
@@ -263,7 +262,7 @@ body {
 }
 
 .Accomm-cards {
-    padding-top: 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -273,7 +272,7 @@ body {
 .Accomm-cards .card {
     display: flex;
     flex-wrap: wrap;
-    width: 450px;
+    width: 292px;
     border-radius: 15px;
     background-color: var(--card-color);
     box-shadow: 0px 13px 41px lightgray;
@@ -298,7 +297,6 @@ body {
     padding: 20px;
     background-color: var(--main-color);
     border-radius: 20px;
-    height: 250px;
 }
 
 .reviews-content {
@@ -310,11 +308,12 @@ body {
     padding-top: 20px;
     display: flex;
     justify-content: center;
+  flex-wrap: wrap;
     gap: 30px;
 }
 
 .faq-cards .card {
-  width: 100%;
+  width: 282px;
   background-color: var(--card-color);
   border-radius: 10px;
   height: 150px;
@@ -378,10 +377,44 @@ body {
         flex-direction: column;
     }
 
+
+    .about-img {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .About-container {
+        margin: 0px;
+    }
+
+    .Attractions-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Attraction-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Attraction-cards .card {
+        width: 100%;
+    }
+
+    
+
     .reviews-container {
         display: flex;
         flex-direction: column;
     }
 
-    .r
+    .Accommodation-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    
 }
