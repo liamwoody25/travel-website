@@ -372,24 +372,30 @@ body {
         left: 32px;
     }
 
+    /****** Attraction and about  ******/
+
     .Attraction-and-About {
         display: flex;
         flex-direction: column;
+        padding: 0;
     }
 
 
     .about-img {
         display: flex;
         flex-direction: column;
+        width:98%;
     }
 
     .About-container {
-        margin: 0px;
+        height: fit-content;
+        margin: 30px;
     }
 
     .Attractions-container {
         display: flex;
         flex-direction: column;
+       
     }
 
     .Attraction-cards {
@@ -403,15 +409,19 @@ body {
     }
 
     
-
+/*****  faq-section  *****/
     .reviews-container {
         display: flex;
         flex-direction: column;
+        margin-top: 34px;
     }
+
+ /*****  Accomm-section  ******/
 
     .Accommodation-container {
         display: flex;
         flex-direction: column;
+        margin-top: 64px;
     }
 
 
