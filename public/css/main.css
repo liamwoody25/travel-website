@@ -93,13 +93,15 @@ a:hover {
     color:#89c2d9;
 }
 
-.fa-instagram {
+.fa-instagram,
+.fa-facebook, 
+.fa-twitter{
     font-size: 1.25rem;
 
 }
 
 input {
-    width: 150px;
+    width: 250px;
     border: 1px solid gray;
     border-radius: 3px;
     margin-left: 10px;
@@ -320,26 +322,37 @@ body {
   padding:10px ;
 }
 
+/****  contact  ***/
+
+.contact-container {
+    justify-content: center;
+    background-color: var(--main-color);
+    width: 80%;
+    margin: 80px 150px 40px;
+    border-radius: 15px;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 150px;
+}
 
 
 /*******  footer-section  ********/
 
 .nav-footer {
-    padding: 40px;
+    padding: 40px 30px 0px 30px;
     background-color: #f8f9fa;
-    height: 150px;
 }
 
-.contact-form {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.contact h3 {
-    text-align: left;
-}
-
-.contact-items ul {
+.nav-footer-items ul {
     list-style: none;
     padding-left: 5px;
     font-size: 1rem;
@@ -347,6 +360,7 @@ body {
 
 .footer-right {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
 }
 
