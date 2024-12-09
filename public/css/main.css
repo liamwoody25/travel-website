@@ -411,6 +411,7 @@ body {
         display: flex;
         flex-direction: column;
         padding: 0;
+        margin: 34px;
     }
 
 
@@ -422,7 +423,8 @@ body {
 
     .About-container {
         height: fit-content;
-        margin: 30px;
+        width: fit-content;
+        margin: 34px;
     }
 
     .Attractions-container {
@@ -446,7 +448,7 @@ body {
     .reviews-container {
         display: flex;
         flex-direction: column;
-        margin-top: 34px;
+        margin: 34px;
     }
 
  /*****  Accomm-section  ******/
