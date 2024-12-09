@@ -101,10 +101,17 @@ a:hover {
 }
 
 input {
-    width: 250px;
+    width: 300px;
     border: 1px solid gray;
     border-radius: 3px;
     margin-left: 10px;
+    height: 40px;
+}
+
+textarea {
+    height: 90px;
+    width: 100%;
+    border: 1px solid gray;
 }
 
 /*******  body  *******/
@@ -327,7 +334,7 @@ body {
 .contact-container {
     justify-content: center;
     background-color: var(--main-color);
-    width: 80%;
+    height: 250px;
     margin: 80px 150px 40px;
     border-radius: 15px;
 }
@@ -364,11 +371,23 @@ body {
     justify-content: flex-end;
 }
 
+.icons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*****  media-query  *****/
 
 @media screen and (max-width: 480px) {
+
+    input {
+        display: flex;
+    }
     
     .nav-header{
         display: flex;
@@ -438,7 +457,11 @@ body {
         margin-top: 64px;
     }
 
+    /*****  contact  *****/
 
-
-    
+    .contact-container {
+        margin: 50px;
+        flex-direction: column;
+        height:330px ;
+    }
 }
