@@ -103,8 +103,8 @@ a:hover {
 input {
     width: 300px;
     border: 1px solid gray;
-    border-radius: 3px;
-    margin-left: 10px;
+    border-radius: 6px;
+    margin: 20px 20px 20px 0px;
     height: 40px;
 }
 
@@ -112,6 +112,8 @@ textarea {
     height: 90px;
     width: 100%;
     border: 1px solid gray;
+    border-radius: 6px;
+    margin-top: 10px;
 }
 
 /*******  body  *******/
@@ -337,6 +339,7 @@ body {
     height: 250px;
     margin: 80px 150px 40px;
     border-radius: 15px;
+    padding: 30px;
 }
 
 .contact-content {
