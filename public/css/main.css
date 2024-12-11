@@ -305,7 +305,7 @@ body {
 
 .reviews-container {
     margin: 100px 50px 40px 50px;
-    padding: 20px;
+    padding: 50px;
     background-color: var(--main-color);
     border-radius: 20px;
 }
@@ -319,15 +319,15 @@ body {
     padding-top: 20px;
     display: flex;
     justify-content: center;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 30px;
 }
 
 .faq-cards .card {
-  width: 282px;
+  width: 264px;
   background-color: var(--card-color);
   border-radius: 10px;
-  height: 150px;
+  height: 200px;
   padding:10px ;
 }
 
