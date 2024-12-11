@@ -88,7 +88,8 @@ a:hover {
 }
 
 .fa-phone,
-.fa-envelope {
+.fa-envelope,
+.fa-location-dot {
     padding-right: 5px;
     color:#89c2d9;
 }
