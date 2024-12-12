@@ -8,23 +8,23 @@
 
 /****  fonts  ****/
 * {
-    font-family: 'Dosis',sans-serif;
+    font-family: 'Dosis' ,sans-serif;
 }
 
 h1 {
     font-size: 2rem;
-    color: #000;
     font-weight: 800;
 }
 
 h2 {
     font-size: 1.9rem ;
-    color:black;
+    font-weight: 700;
     margin: 5px;
 }
 
 h3 {
-     margin: 0;
+    font-weight:700;
+    margin: 0;
     font-size: 1.25rem;
     margin-bottom: 5px;
     text-align: center;
@@ -38,8 +38,9 @@ p {
 }
 
 
-/*******  components  ******/
+/*********  components  *********/
 
+/** buttons  **/
 .hero-btn {
     width: 150px;
     height: 30px;
@@ -55,7 +56,12 @@ p {
     justify-content: center;
 }
 
+.hero-btn:hover {
+    opacity: 0.7;
+}
 
+
+/****  links/ a tags ****/
 .nav-items a {
     text-decoration: none;
     font-size: 1.125rem;
@@ -63,13 +69,13 @@ p {
 }
 
 .nav-items a:hover {
-    color:  #0077cc;;
+    color: #0077cc;
     text-decoration: underline;
 }
 
 a {
+    color: #000;
     text-decoration: none;
-    color:#000;
     font-size: 1.125rem;
     font-weight: 500;
 }
@@ -87,10 +93,12 @@ a:hover {
     color:#89c2d9;
 }
 
+/******  icons  *****/
+
 .fa-phone,
 .fa-envelope,
 .fa-location-dot {
-    padding-right: 5px;
+    padding-right: 10px;
     color:#89c2d9;
 }
 
@@ -98,23 +106,29 @@ a:hover {
 .fa-facebook, 
 .fa-twitter{
     font-size: 1.25rem;
+}
 
+/******  form  ******/
+:placeholder-shown {
+    padding: 10px;
 }
 
 input {
     width: 300px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     border-radius: 6px;
-    margin: 20px 20px 20px 0px;
+    margin: 20px 20px 20px 10px;
     height: 40px;
+    outline: 0;
 }
 
 textarea {
     height: 90px;
-    width: 100%;
-    border: 1px solid gray;
+    width: 95%;
+    border: 1px solid lightgray;
     border-radius: 6px;
     margin-top: 10px;
+    outline: 0;
 }
 
 /*******  body  *******/
@@ -262,7 +276,7 @@ body {
 /********  Accommodation  *******/
 
 .Accommodation-container {
-    background-color: var(--main-color);
+    background-color: #caf0f8;
     padding: 20px;
     border-radius: 20px;
     margin: 100px 50px 60px 50px;
@@ -307,7 +321,7 @@ body {
 .reviews-container {
     margin: 100px 50px 40px 50px;
     padding: 50px;
-    background-color: var(--main-color);
+    background-color: #caf0f8;
     border-radius: 20px;
 }
 
@@ -337,7 +351,7 @@ body {
 .contact-container {
     justify-content: center;
     background-color: var(--main-color);
-    height: 250px;
+    height: 290px;
     margin: 80px 150px 40px;
     border-radius: 15px;
     padding: 30px;
@@ -369,6 +383,10 @@ body {
     font-size: 1rem;
 }
 
+.footer-txt {
+    margin: 10px;
+}
+
 .footer-right {
     display: flex;
     align-items: center;
@@ -379,7 +397,7 @@ body {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 
@@ -468,6 +486,15 @@ body {
     .contact-container {
         margin: 50px;
         flex-direction: column;
-        height:330px ;
+        height:397px ;
+    }
+
+    input {
+        margin: 5px;
+    }
+
+    textarea {
+        margin: 5px;
+        width: 91%;
     }
 }
