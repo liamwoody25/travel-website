@@ -248,7 +248,7 @@ body {
 /********  About  *********/
 
 .About-container {
-    background-color: var(--main-color);
+    background-color: #caf0f8;
     margin: 40px 0px 0px 50px;
     width: 80%;
     border-radius: 20px;
@@ -321,7 +321,7 @@ body {
 .reviews-container {
     margin: 100px 50px 40px 50px;
     padding: 50px;
-    background-color: #caf0f8;
+    background-color:var(--main-color);
     border-radius: 20px;
 }
 
