@@ -49,7 +49,10 @@ p {
     background-color: var(--card-color);
     cursor: pointer;
     box-shadow:0px 10px 16px lightgray;
+    transition: 0.6s;
 }
+
+.hero-btn:hover
 
 .btn {
     display: flex;
@@ -58,7 +61,23 @@ p {
 
 .hero-btn:hover {
     opacity: 0.7;
+    transform: scale(1.15);
 }
+
+.faq-toggle {
+    border: none;
+    background-color: transparent;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.bi-plus {
+    font-size: 30px;
+    color: var(--card-color);
+}
+
+/*********  components  *********/
+
 
 
 /****  links/ a tags ****/
@@ -89,6 +108,7 @@ a:hover {
     color:#89c2d9;
 }
 
+
 .about-link {
     color:#89c2d9;
 }
@@ -108,7 +128,13 @@ a:hover {
     font-size: 1.25rem;
 }
 
+/******  icons  *****/
+
+
+
+
 /******  form  ******/
+
 :placeholder-shown {
     padding: 10px;
 }
@@ -130,6 +156,10 @@ textarea {
     margin-top: 10px;
     outline: 0;
 }
+
+/******  form  ******/
+
+
 
 /*******  body  *******/
 
@@ -216,6 +246,7 @@ body {
 }
 
 .Attraction-cards {
+    transition: .6s;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -223,16 +254,21 @@ body {
     gap: 30px;
 }
 
+
 .Attraction-cards .card {
     width: 45%;
     border-radius: 15px;
     background-color:var(--card-color) ;
     box-shadow: 0px 13px 41px lightgray;
+    transition: 0.4s;
+  
 }
 
-.Attraction-cards:hover {
-    
+.Attraction-cards .card:hover {
+    transform: scale(1.10);
 }
+
+
 
 .card-body {
     text-align: center;
@@ -273,6 +309,10 @@ body {
   }
   
 
+/********  About  *********/
+
+
+
 /********  Accommodation  *******/
 
 .Accommodation-container {
@@ -302,6 +342,13 @@ body {
     border-radius: 15px;
     background-color: var(--card-color);
     box-shadow: 0px 13px 41px lightgray;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.Accomm-cards .card:hover {
+    transform: scale(1.10);
+
 }
 
 .card-content {
@@ -314,6 +361,10 @@ body {
     height: 160px;
     object-fit: cover;
 }
+
+/********  Accommodation  *******/
+
+
 
 
 /*******  review  *******/
@@ -339,12 +390,36 @@ body {
 }
 
 .faq-cards .card {
-  width: 264px;
-  background-color: var(--card-color);
+  width: 50%;
   border-radius: 10px;
-  height: 200px;
   padding:10px ;
+  transition: 0.5s;
+    transform: scale(1);
 }
+
+.faq-cards .card:hover {
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+
+.card-body {
+    background-color: burlywood;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: -7px;
+    border-radius: 5px;
+}
+
+.answer-text {
+    margin-top: 15px;
+    background-color: var(--card-color);
+}
+
+/*******  review  *******/
+
+
+
 
 /****  contact  ***/
 

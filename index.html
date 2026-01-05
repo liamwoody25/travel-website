@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./public/css/main.css">
     <title>Travel Website</title>
 </head>
@@ -109,29 +110,41 @@
         <div class="faq-cards">
             <!-- faq-1 -->
             <article class="card">
-                    <div class="card-body">
-                        <h3>When is the best time to visit Dubai</h3>
-                        <p>Ipsum ut officia minim voluptateOfficia id consequat magna occaecat et veniam culpa culpa ullamco dolore aute et.</p>
-                    </div>
+                <div class="card-body"> 
+                    <h3>When is the best time to visit Dubai</h3>
+                    <button class="faq-toggle"><i class="bi bi-plus"></i></button>    
+                <div class="answer-text">
+                    <p>Ipsum ut officia minim voluptateOfficia id consequat magna occaecat et veniam culpa culpa ullamco dolore aute et Officia aliquip est aliqua magna pariatur deserunt. Labore duis reprehenderit eu ut est deserunt exercitation dolore enim enim exercitation qui.</p>
+                </div>
+                </div>
             </article>
              <!-- faq-2 -->
             <article class="card">
                     <div class="card-body">
                         <h3>what are the top attractions in Dubai</h3>
-                        <p>Cillum deserunt excepteur officiaAliqua commodo eu deserunt ullamco eu est elit aliquip.</p>
+                        <button class="faq-toggle"><i class="bi bi-plus"></i></button>
+                    </div>
+                    <div class="answer-text">
+                        <p>Cillum deserunt excepteur officiaAliqua commodo eu deserunt ullamco eu est elit aliquipIpsum voluptate nostrud do cupidatat ad. Commodo excepteur sit eiusmod pariatur ex ipsum eiusmod Lorem. Nulla laboris eiusmod veniam ipsum aliqua aute ipsum sint aliqua reprehenderit ipsum aute culpa do.</p>
                     </div>
             </article>
              <!-- faq-3 -->
             <article class="card">
                     <div class="card-body">
-                        <h3>what is the local currency </h3>
-                        <p>Laboris aliqua ullamco eu aliqua minim et commodo id ullamco consequat non culpa reprehenderit nisi.</p>
+                        <h3>what is the local currency</h3>
+                        <button class="faq-toggle"><i class="bi bi-plus"></i></button>
+                    </div>
+                    <div class="answer-text">
+                        <p>Laboris aliqua ullamco eu aliqua minim et commodo id ullamco consequat non culpa reprehenderit nisi.Excepteur sunt occaecat deserunt ea quis deserunt do deserunt consectetur ipsum.</p>
                     </div>
             </article>
             <!-- faq-4 -->
             <article class="card">
                     <div class="card-body">
                         <h3>what language do they speak</h3>
+                        <button class="faq-toggle"><i class="bi bi-plus"></i></button>
+                    </div>
+                    <div class="answer-text">
                         <p>Nulla occaecat commodo proident excepteurAd quis ut incididunt deserunt eiusmod non exercitation.</p>
                     </div>
             </article>
@@ -221,5 +234,6 @@
         </nav>
     </footer>
     </main>
+    <script src="/public/js/faq.js"></script>
 </body>
 </html>
