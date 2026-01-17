@@ -404,7 +404,6 @@ body {
 }
 
 .card-body {
-    background-color: burlywood;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -497,7 +496,7 @@ body {
 
     /*** typeography ***/
 
-    
+
 
 /**** components ****/
 
@@ -517,6 +516,10 @@ body {
         margin-left: -27px;
         display: flex;
         justify-content: end;
+    }
+
+    .btn {
+        text-align: center;
     }
 
 .ham-burger {
@@ -565,6 +568,15 @@ body {
   top: 28px;
 }
 
+
+.about-link {
+    margin: 10px 0px;
+}
+
+
+.card-link {
+    margin: 10px;
+}
 /**** components ****/
 
     
@@ -601,6 +613,12 @@ body {
     .hero-content {
         position: absolute;
         left: 32px;
+        width: 293px;
+        bottom: 171px;
+    }
+
+    .hero-content h1 {
+        text-align: center;
     }
 
     /****** Attraction and about  ******/
@@ -609,14 +627,13 @@ body {
         display: flex;
         flex-direction: column;
         padding: 0;
-        margin: 34px;
     }
 
 
     .about-img {
         display: flex;
         flex-direction: column;
-        width:98%;
+        width:100%;
     }
 
     .About-container {
@@ -628,6 +645,7 @@ body {
     .Attractions-container {
         display: flex;
         flex-direction: column;
+        margin: 34px;
        
     }
 
@@ -641,6 +659,9 @@ body {
         width: 100%;
     }
 
+    .card-body {
+        height: 125px;
+    }
     
 /*****  faq-section  *****/
     .reviews-container {
