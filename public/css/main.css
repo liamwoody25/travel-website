@@ -664,7 +664,7 @@ body {
         display: flex;
         flex-direction: column;
         margin: 20px;
-        width: 77%;
+        width: 78%;
        
     }
 
@@ -712,6 +712,10 @@ body {
         justify-content: end;
     }
 
+    .answer-text {
+        border-radius: 10px;
+    }
+
  /*****  Accomm-section  ******/
 
     .Accommodation-container {
@@ -743,11 +747,39 @@ body {
     }
 
     input {
+        width: 256px;
         margin: 5px;
     }
 
     textarea {
         margin: 5px;
         width: 91%;
+    }
+
+    .contact-card {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    
+    .nav-footer-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-footer-items > ul {
+        text-align: center;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-right {
+        display: flex;
+        justify-content: center;
     }
 }
