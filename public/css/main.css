@@ -494,6 +494,10 @@ body {
         margin-top: 10px;
     }
 
+    h3 {
+        
+    }
+
     /*** typeography ***/
 
 
@@ -579,11 +583,25 @@ body {
 }
 /**** components ****/
 
-    
-    .nav-header{
-        display: flex;
-        flex-direction: column;
-    }
+
+/**** body ****/
+
+.container  {
+    width: 100%;
+    max-width: 375px;
+}
+
+body {
+    margin: 0;
+}
+
+
+/**** header-section ****/
+
+.nav-header{
+    display: flex;
+    flex-direction: column;
+}
 
     .left-screen-menu {
     background-color: lightskyblue;
@@ -639,13 +657,14 @@ body {
     .About-container {
         height: fit-content;
         width: fit-content;
-        margin: 34px;
+        margin: 20px;
     }
 
     .Attractions-container {
         display: flex;
         flex-direction: column;
-        margin: 34px;
+        margin: 20px;
+        width: 77%;
        
     }
 
@@ -664,10 +683,33 @@ body {
     }
     
 /*****  faq-section  *****/
+
     .reviews-container {
         display: flex;
         flex-direction: column;
-        margin: 34px;
+        margin: 20px;
+        width: 87%;
+        padding: 100px 0px 40px 0px;
+    }
+
+    .reviews-container .reviews-content {
+        text-align: center;
+    }
+
+    .faq-cards {
+        display: flex;
+        justify-content: center;
+    }
+
+    .faq-cards .card {
+        width: 84%;
+        background-color: #ffbf69;
+    }
+
+    .faq-cards .faq-card-body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: end;
     }
 
  /*****  Accomm-section  ******/
@@ -675,15 +717,29 @@ body {
     .Accommodation-container {
         display: flex;
         flex-direction: column;
-        margin-top: 64px;
+        margin: 20px;
+        width:  86%;
+        padding: 100px 0px 60px 0px;
+    }
+
+    .Accomm-cards {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .Accomm-cards > .card{
+        width: 84%;
     }
 
     /*****  contact  *****/
 
     .contact-container {
-        margin: 50px;
+        padding: 20px;
+        margin: 20px;
         flex-direction: column;
         height:397px ;
+        width: 75%;
     }
 
     input {
